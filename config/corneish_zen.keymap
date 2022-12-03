@@ -35,8 +35,8 @@
 // | LGUI |     |     |     |     |     |   |  0  |  1 |  2  |  3  |    |      |
 //                    | LCTRL |     | BSPC |   | LSHFT |     | ALT |
                         bindings = <
-   &kp ESC    &trans       &trans       &trans       &trans       &trans        &trans    &kp N7  &kp N8 &kp N9 &trans    &kp BSPC
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4  &kp EQUAL &kp N4  &kp N5 &kp N6 &DOT      &trans
+   &kp ESC    &trans       &trans       &trans       &trans       &trans        &trans    &kp N7  &kp N8 &kp N9 &trans     &kp BSPC
+   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4  &kp EQUAL &kp N4  &kp N5 &kp N6 &kp DOT    &trans
    &kp LGUI   &trans       &trans       &trans       &trans       &trans        &kp N0    &kp N1  &kp N2 &kp N3 &kp COMMA  &trans
                           	            &kp LCTRL    &trans       &kp BSPC      &kp LSHFT  &trans &kp RALT
                         >;
@@ -51,7 +51,7 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp ESC        &kp EXCL  &kp AT    &kp LBKT    &kp RBKT  &kp PIPE       &kp CARET  &kp UNDER   &kp BSLH    &kp KP_MULTIPLY &kp RPAR &kp BSPC
-   &kt TAB(CAPS)  &kp HASH  &kp DLLR  &kp LPAR    &kp RPAR  &kp GRAVE      &kp PLUS   &kp MINUS   &kp FSLH    &kp LBRC        &kp BSLH &kp GRAVE
+   &kp TAB        &kp HASH  &kp DLLR  &kp LPAR    &kp RPAR  &kp GRAVE      &kp PLUS   &kp MINUS   &kp FSLH    &kp LBRC        &kp BSLH &kp GRAVE
    &kp LGUI       &kp PRCNT &kp CARET &kp LBRC    &kp RBRC  &kp TILDE      &kp AMPS   &kp EQUAL   &kp COMMA   &kp RBRC        &kp PIPE &trans
                     	     &kp LCTRL &trans   &kp BSPC   &kp SPACE   &trans    &kp RALT
                         >;
